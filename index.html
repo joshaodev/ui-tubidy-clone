@@ -4,66 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tubidy</title>
+    <title>Tubidy MP3, MP4 and Mobile Video Search Engine</title>
 
     <!-- Fontawesome link -->
     <link rel="stylesheet" href="./plugins/fontawesome/css/all.min.css">
+    <!-- Owner Styles -->
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
     <header id="header">
-        <div class="header-content">
+        <div class="header-content h-align">
             <a href="#">
                 <img src="./images/logos/tubidy.svg" alt="Tubidy Logo" class="logo">
             </a>
-            <div class="navegation">
-                <ul class="navbar">
-                    <li>Item1</li>
-                    <li>Item2</li>
-                    <li>Item3</li>
+            <div class="navegation h-align">
+                <ul class="navbar h-align">
+                    <li><a href="#" class="navbar-item">Top Videos</a></li>
+                    <li><a href="#" class="navbar-item">Top Searches</a></li>
+                    <li><a href="#" class="navbar-item">My Recently Viewed</a></li>
                 </ul>
                 <div class="account">
                     <select>
-                        <option value="">1</option>
+                        <option value="" disabled selected>My Account</option>
+                        <option value="">Login</option>
+                        <option value="">My Playlist</option>
+                        <option value="">My Stats</option>
+                        <option value="">Uploads</option>
                     </select>
                     <select>
-                        <option value="">1</option>
+                        <option value="">EN</option>
                     </select>
                 </div>
             </div>
         </div>
-        <div class="search-bar">
-            <input type="text" class="search-input" placeholder="Search">
-            <button class="search-btn"><i class="fas fa-magnifying-glass"></i></button>
+        <div class="search-bar h-align">
+            <input type="text" class="search-input no-background" placeholder="Search">
+            <button class="search-btn no-background"><i class="fas fa-magnifying-glass"></i>Srch</button>
         </div>
     </header>
     <section id="section">
-        <ul class="files">
-            <li class="file">
+        <ul class="files v-align">
+            <!-- Files -->
+            <li class="file h-align">
                 <div class="file-thumb">
                     <a href="#">
-                        <img src="" alt="" class="thumb-img">
+                        <img src="./images/files-thumbs/eWpxvrQygEnegxZf_2FE7sJg_3D_3D.jpg" alt="File Thumb" class="thumb-img">
                     </a>
                 </div>
-                <div class="file-info">
-                    <p class="file-title"><a href="#">Title</p></a>
-                    <ul class="file-ad-info">
-                        <li class="file-time-duration">Duration: 03:45</li>
-                        <li class="file-social-links"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <div class="file-info v-align">
+                    <p><a href="#" class="file-title">Luan Santana - MORENA (Clipe Oficial)</a></p>
+                    <ul class="file-ad-info h-align">
+                        <li class="file-time-duration">Duration: 03:23</li>
+                        <li class="file-social-links v-align"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
             </li>
+
+            <li class="file h-align">
+                <div class="file-thumb">
+                    <a href="#">
+                        <img src="./images/files-thumbs/Zono0VaxynKmaLJhKjqaIw_3D_3D.jpg" alt="File Thumb" class="thumb-img">
+                    </a>
+                </div>
+                <div class="file-info v-align">
+                    <p><a href="#" class="file-title">Justin Bieber - Ghost</a></p>
+                    <ul class="file-ad-info h-align">
+                        <li class="file-time-duration">Duration: 03:33</li>
+                        <li class="file-social-links v-align"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="file h-align">
+                <div class="file-thumb">
+                    <a href="#">
+                        <img src="./images/files-thumbs/9xm3gBjK6fouCwV9VqPcsA_3D_3D.jpg" alt="File Thumb" class="thumb-img">
+                    </a>
+                </div>
+                <div class="file-info v-align">
+                    <p><a href="#" class="file-title">Chris Brown, Tyga - Ayo</a></p>
+                    <ul class="file-ad-info h-align">
+                        <li class="file-time-duration">Duration: 06:01</li>
+                        <li class="file-social-links v-align"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="file h-align">
+                <div class="file-thumb">
+                    <a href="#">
+                        <img src="./images/files-thumbs/gkfQGRnT_2BowvVgMo5FDW9Q_3D_3D.jpg" alt="File Thumb" class="thumb-img">
+                    </a>
+                </div>
+                <div class="file-info v-align">
+                    <p><a href="#" class="file-title">Rema - Calm Down</a></p>
+                    <ul class="file-ad-info h-align">
+                        <li class="file-time-duration">Duration: 03:40</li>
+                        <li class="file-social-links v-align"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="file h-align">
+                <div class="file-thumb">
+                    <a href="#">
+                        <img src="./images/files-thumbs/oKWxAnn7DkuhuvZdejWuYA_3D_3D.jpg" alt="File Thumb" class="thumb-img">
+                    </a>
+                </div>
+                <div class="file-info v-align">
+                    <p><a href="#" class="file-title">Davido, Focalistic - Champion Sound</a></p>
+                    <ul class="file-ad-info h-align">
+                        <li class="file-time-duration">Duration: 04:214</li>
+                        <li class="file-social-links v-align"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="file h-align">
+                <div class="file-thumb">
+                    <a href="#">
+                        <img src="./images/files-thumbs/baG6YJcqS6G5ols6szbkMw_3D_3D.jpg" alt="File Thumb" class="thumb-img">
+                    </a>
+                </div>
+                <div class="file-info v-align">
+                    <p><a href="#" class="file-title">Chris Brown - Don't Judge Me</a></p>
+                    <ul class="file-ad-info h-align">
+                        <li class="file-time-duration">Duration: 04:52</li>
+                        <li class="file-social-links v-align"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </li>
+            <!-- -->
         </ul>
-        <ul class="paginator-content">
-            <li class="prev">&laquo; Prev</li>
-            <li class="active">2</li>
-            <li class="next">Next &raquo;</li>
+        <ul class="paginator-content h-align">
+            <li><a href="#">&laquo; Prev</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">Next &raquo;</a></li>
         </ul>
     </section>
-    <footer id="footer">
-        <ul class="footer-menu">
-            <li>item1</li>
+    <footer id="footer v-align">
+        <ul class="footer-menu h-align">
+            <li><a href="#">Invite a Friend</a></li>
+            <li><a href="#">Help/FAQ</a></li>
+            <li><a href="#">Report a Problem</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
         </ul>        
-        <p class="copyr">&copy; 2022 tubidy.mobi</p>
+        <p class="copyright">&copy; 2022 tubidy.mobi</p>
     </footer>
 </body>
 </html>
